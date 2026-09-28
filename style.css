@@ -15,3 +15,34 @@
 .rb-paper{fill:#fff;stroke:#12264a;stroke-width:2.5}.rb-fold{fill:#1478e8;stroke:#12264a;stroke-width:1.5}
 .rb-avatar{fill:#12264a}.rb-line{fill:none;stroke:#8d99ad;stroke-width:2;stroke-linecap:round}.rb-line.blue{stroke:#1478e8}
 .rb-pen{fill:#12264a;stroke:#fff;stroke-width:1}.rb-letter{font:900 16px Georgia,serif;fill:#12264a}.rb-letter.blue-text{fill:#1478e8}
+
+/* Additional professional resume templates */
+.resume.corporate header{border-bottom:3px solid var(--accent);padding-bottom:16px}
+.resume.corporate h1{font-size:28px;letter-spacing:.4px;color:var(--text)}
+.resume.corporate h2{background:var(--accent);color:#fff;border:0;padding:5px 8px;letter-spacing:1px}
+.resume.corporate .item-title{font-weight:700}
+.resume.tech{font-family:"Trebuchet MS",Arial,sans-serif}
+.resume.tech header{background:#0f172a;color:#fff;margin:-45px -50px 18px;padding:25px 50px;border-bottom:5px solid var(--accent)}
+.resume.tech h1,.resume.tech .contact{color:#fff}
+.resume.tech h2{border-left:4px solid var(--accent);padding-left:8px;border-bottom:0}
+.resume.tech .item-title{color:var(--accent)}
+.resume.elegant{font-family:Georgia,"Times New Roman",serif}
+.resume.elegant header{text-align:center;border-bottom:1px solid #b8a47e}
+.resume.elegant h1{font-size:31px;font-weight:500;letter-spacing:1px;color:var(--text)}
+.resume.elegant .role{font-style:italic;font-weight:400}
+.resume.elegant h2{text-align:center;border-bottom:0;font-family:Arial,sans-serif;font-size:11px;letter-spacing:2px;color:var(--accent)}
+.resume.elegant h2:after{content:"";display:block;width:42px;margin:4px auto;border-bottom:1px solid var(--accent)}
+.resume.sidebar{padding:0;display:grid;grid-template-columns:185px 1fr;min-height:1123px}
+.resume.sidebar header{grid-column:1;background:var(--accent);color:#fff;padding:34px 18px;margin:0;border:0;min-height:1123px}
+.resume.sidebar h1{font-size:25px;color:#fff;word-break:break-word}
+.resume.sidebar .role,.resume.sidebar .contact{color:#fff}
+.resume.sidebar .resume-body{grid-column:2;padding:34px 34px}
+.resume.sidebar h2{border-bottom:2px solid var(--accent);padding-bottom:5px}
+.resume.sidebar .photo{position:static;width:100px;height:100px;border-radius:50%;margin:0 auto 15px;display:block}
+.resume.bold header{border:0;background:linear-gradient(135deg,var(--accent),#111827);color:#fff;border-radius:10px;padding:20px}
+.resume.bold h1,.resume.bold .contact{color:#fff}
+.resume.bold .role{font-weight:800}
+.resume.bold h2{font-size:calc(var(--heading) + 1px);border-bottom:3px solid var(--accent);color:var(--text);font-weight:900}
+.resume.bold .item-title{font-weight:900}
+@media(max-width:800px){.resume.sidebar{display:block}.resume.sidebar header{min-height:auto}.resume.sidebar .resume-body{padding:25px}.resume.tech header{margin:-28px -25px 18px;padding:22px 25px}}
+@media print{.resume.sidebar{display:grid}.resume.sidebar header{min-height:297mm}}
