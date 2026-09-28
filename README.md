@@ -35,6 +35,10 @@ HTML5 • CSS3 • JavaScript • LocalStorage
 
 This project is configured for GitHub Pages deployment through GitHub Actions.
 
+## Deployment check
+
+Triggered a fresh GitHub Pages deployment from the `main` branch.
+
 ## Future improvements
 
 - Multiple resume templates
