@@ -46,3 +46,23 @@
 .resume.bold .item-title{font-weight:900}
 @media(max-width:800px){.resume.sidebar{display:block}.resume.sidebar header{min-height:auto}.resume.sidebar .resume-body{padding:25px}.resume.tech header{margin:-28px -25px 18px;padding:22px 25px}}
 @media print{.resume.sidebar{display:grid}.resume.sidebar header{min-height:297mm}}
+
+/* Professional Resume Creator polish */
+body{background:#f3f5f8;color:#172033}
+.topbar{background:linear-gradient(135deg,#0b1220,#18243a);padding:13px 28px}
+.logo{box-shadow:0 5px 16px #0004}
+.brand h1{letter-spacing:-.3px}
+.brand p{letter-spacing:.15px}
+.actions button{transition:transform .15s ease,box-shadow .15s ease}.actions button:hover{transform:translateY(-1px);box-shadow:0 4px 12px #0002}
+.toolbar{background:#fff;padding:11px 28px}
+.toolbar:before{content:"DESIGN";font-size:10px;font-weight:900;color:#98a2b3;letter-spacing:1.2px;margin-right:2px}
+.panel{border:1px solid #e5e7eb;box-shadow:0 8px 30px #1720330d}
+.editor{padding:24px}
+.editor>h2{font-size:19px;letter-spacing:-.2px}
+.section h3{font-size:14px;color:#1d2939;letter-spacing:.1px}
+.section{padding:19px 0}
+input:focus,textarea:focus,.toolbar select:focus{outline:2px solid #2563eb33;border-color:#2563eb}
+.preview-wrap{background:#f8fafc}
+.preview-head{padding:2px 5px 12px}
+.preview-head span{background:#ecfdf3;color:#027a48!important;border-radius:999px;padding:4px 8px;font-weight:700}
+.resume{box-shadow:0 10px 35px #17203320}
