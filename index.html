@@ -20,7 +20,7 @@
   <div class="actions"><button id="saveBtn" class="secondary">💾 Save</button><button id="clearBtn" class="secondary">Clear</button><button id="printBtn" class="primary">🖨 Download PDF</button></div>
 </header>
 <div class="toolbar">
-  <label>Template<select id="template"><option value="classic">Classic</option><option value="modern">Modern</option><option value="minimal">Minimal</option><option value="creative">Creative</option><option value="executive">Executive</option><option value="academic">Academic</option><option value="corporate">Corporate</option><option value="tech">Tech</option><option value="elegant">Elegant</option><option value="sidebar">Sidebar</option><option value="bold">Bold</option></select></label>
+  <label>Template<select id="template"><option value="classic">Classic</option><option value="modern">Modern</option><option value="minimal">Minimal</option><option value="creative">Creative</option><option value="executive">Executive</option><option value="academic">Academic</option><option value="corporate">Corporate</option><option value="tech">Tech</option><option value="elegant">Elegant</option><option value="sidebar">Sidebar</option><option value="bold">Bold</option><option value="swiss">Swiss</option><option value="ats">ATS Clean</option><option value="timeline">Timeline</option><option value="modern-pro">Modern Pro</option></select></label>
   <label>Font<select id="font"><option>Arial</option><option>Calibri</option><option>Georgia</option><option>Garamond</option><option>Trebuchet MS</option><option>Times New Roman</option><option>Verdana</option></select></label>
   <label>Accent <input id="accent" type="color" value="#2563eb"></label>
   <label>Text <input id="textColor" type="color" value="#172033"></label>
@@ -31,7 +31,7 @@
   <label>Section Gap <input id="sectionGap" type="range" min="8" max="28" value="18"><span id="sectionGapVal">18px</span></label>
   <label>Header <select id="headerAlign"><option value="left">Left</option><option value="center">Center</option><option value="right">Right</option></select></label>
   <label>Layout <select id="layout"><option value="single">Single Column</option><option value="two-column">Two Column</option></select></label>
-  <button id="photoBtn" class="toolbtn">📷 Add Photo</button><input id="photo" type="file" accept="image/*" hidden>
+  <button id="photoBtn" class="toolbtn">📷 Add Photo</button><button id="sampleBtn" class="toolbtn">✨ Load Sample</button><input id="photo" type="file" accept="image/*" hidden>
 </div>
 <main class="app">
 <section class="panel editor">
@@ -48,9 +48,9 @@
 <div class="section"><h3>Experience / Internship</h3><div id="experienceList"></div><button class="add" data-add="experience">+ Add Experience</button></div>
 <div class="section"><h3>Certifications</h3><div id="certificationList"></div><button class="add" data-add="certification">+ Add Certification</button></div>
 <div class="section"><h3>Achievements & Activities</h3><textarea id="achievements" rows="5" placeholder="One achievement, workshop, hackathon or activity per line"></textarea></div>
-<div class="section"><h3>Additional Details</h3><div class="grid"><label>Career Objective<textarea id="objective" rows="3" placeholder="Optional career objective"></textarea></label><label>Hobbies / Interests<textarea id="interests" rows="3" placeholder="AI, reading, photography"></textarea></label><label>Publications / Papers<textarea id="publications" rows="3" placeholder="Optional publications or paper presentations"></textarea></label><label>Declaration<textarea id="declaration" rows="3" placeholder="Optional declaration"></textarea></label></div></div>
+<div class="section"><h3>Additional Details</h3><div class="grid"><label>Career Objective<textarea id="objective" rows="3" placeholder="Optional career objective"></textarea></label><label>Hobbies / Interests<textarea id="interests" rows="3" placeholder="AI, reading, photography"></textarea></label><label>Publications / Papers<textarea id="publications" rows="3" placeholder="Optional publications or paper presentations"></textarea></label><label>Volunteer / Leadership<textarea id="volunteer" rows="3" placeholder="Student council, volunteering, leadership roles"></textarea></label><label>Relevant Coursework<textarea id="coursework" rows="3" placeholder="Data Structures, DBMS, Machine Learning, Cloud Computing"></textarea></label><label>References<textarea id="references" rows="3" placeholder="Available on request or professional references"></textarea></label><label>Declaration<textarea id="declaration" rows="3" placeholder="Optional declaration"></textarea></label></div></div>
 </section>
-<section class="panel preview-wrap"><div class="preview-head"><h2>Live A4 Preview</h2><span id="status">Ready</span></div><article id="resumePreview" class="resume" contenteditable="false"></article></section>
+<section class="panel preview-wrap"><div class="preview-head"><h2>Live A4 Preview</h2><div class="preview-tools"><span id="atsScore">ATS: 0%</span><span id="status">Ready</span></div></div><article id="resumePreview" class="resume" contenteditable="false"></article></section>
 </main>
 <script src="script.js"></script>
 </body></html>
