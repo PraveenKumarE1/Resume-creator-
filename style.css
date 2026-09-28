@@ -83,3 +83,9 @@ body{background:#edf1f6;color:#172033}
 .preview-wrap{background:white}
 .preview-head{padding:0}
 .preview-head span{background:transparent;color:#667085!important;border-radius:0;padding:0;font-weight:400}
+.preview-tools{display:flex;gap:8px;align-items:center}.preview-tools span{padding:4px 8px;border-radius:999px;background:#f2f4f7!important;color:#475467!important}
+.resume.swiss{font-family:Arial,sans-serif;padding-top:38px}.resume.swiss h1{font-size:34px;letter-spacing:-1px}.resume.swiss header{border-bottom:4px solid var(--accent)}.resume.swiss h2{color:var(--text);border-bottom:3px solid var(--accent)}
+.resume.ats{font-family:Arial,sans-serif;box-shadow:none}.resume.ats header{text-align:left;border-bottom:1px solid #222}.resume.ats h1{color:#111;font-size:26px}.resume.ats h2{color:#111;border-bottom:1px solid #222;letter-spacing:.5px}
+.resume.timeline h2{border-left:4px solid var(--accent);padding-left:9px;border-bottom:0}.resume.timeline section{border-left:1px solid #d0d5dd;padding-left:13px}.resume.timeline header{border-bottom:2px solid var(--accent)}
+.resume.modern-pro{font-family:Calibri,Arial,sans-serif}.resume.modern-pro header{display:grid;grid-template-columns:1fr auto;align-items:center;border:0;background:#f5f7fb;padding:18px;border-radius:8px}.resume.modern-pro h1{font-size:32px}.resume.modern-pro h2{border-bottom:2px solid var(--accent);color:var(--text)}
+@media print{.resume.ats{box-shadow:none}}
