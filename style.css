@@ -8,3 +8,10 @@
 .resume.two-column .resume-body>section{break-inside:avoid}.resume.two-column .resume-body .full-width{column-span:all}
 @media(max-width:800px){.resume.two-column .resume-body{columns:1}}
 @media print{.resume.two-column .resume-body{columns:2}}
+
+.rb-logo{width:48px;height:48px;border-radius:12px;background:white;display:grid;place-items:center;box-shadow:0 4px 12px #0003;overflow:hidden}
+.rb-logo svg{width:44px;height:44px}
+.rb-ring,.rb-ring-dark{fill:none;stroke:#1478e8;stroke-width:3.2;stroke-linecap:round}.rb-ring-dark{stroke:#12264a}
+.rb-paper{fill:#fff;stroke:#12264a;stroke-width:2.5}.rb-fold{fill:#1478e8;stroke:#12264a;stroke-width:1.5}
+.rb-avatar{fill:#12264a}.rb-line{fill:none;stroke:#8d99ad;stroke-width:2;stroke-linecap:round}.rb-line.blue{stroke:#1478e8}
+.rb-pen{fill:#12264a;stroke:#fff;stroke-width:1}.rb-letter{font:900 16px Georgia,serif;fill:#12264a}.rb-letter.blue-text{fill:#1478e8}
