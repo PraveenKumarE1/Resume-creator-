@@ -31,6 +31,10 @@ resume-creator/
 
 HTML5 • CSS3 • JavaScript • LocalStorage
 
+## Deployment
+
+This project is configured for GitHub Pages deployment through GitHub Actions.
+
 ## Future improvements
 
 - Multiple resume templates
