@@ -17,12 +17,16 @@
   <label>Body <input id="bodySize" type="range" min="9" max="13" value="11"><span id="bodySizeVal">11px</span></label>
   <label>Spacing <input id="spacing" type="range" min="1" max="2" step=".1" value="1.5"><span id="spacingVal">1.5</span></label>
   <label>Margins<select id="margins"><option value="compact">Compact</option><option value="normal" selected>Normal</option><option value="wide">Wide</option></select></label>
+  <label>Heading <input id="headingSize" type="range" min="11" max="18" value="12"><span id="headingSizeVal">12px</span></label>
+  <label>Section Gap <input id="sectionGap" type="range" min="8" max="28" value="18"><span id="sectionGapVal">18px</span></label>
+  <label>Header <select id="headerAlign"><option value="left">Left</option><option value="center">Center</option><option value="right">Right</option></select></label>
+  <label>Layout <select id="layout"><option value="single">Single Column</option><option value="two-column">Two Column</option></select></label>
   <button id="photoBtn" class="toolbtn">📷 Add Photo</button><input id="photo" type="file" accept="image/*" hidden>
 </div>
 <main class="app">
 <section class="panel editor">
 <h2>Resume Content</h2>
-<div class="section"><h3>Personal Information</h3><div class="grid">
+<div class="section"><h3>Personal Information</h3><div class="word-help">Word-style controls apply instantly to the A4 document. Use the design toolbar to change fonts, colors, spacing, margins and layout.</div><div class="grid">
 <label>Full Name<input id="name" placeholder="Your Name"></label><label>Professional Title<input id="title" placeholder="AI & Data Science Student"></label>
 <label>Email<input id="email" type="email" placeholder="you@example.com"></label><label>Phone<input id="phone" placeholder="+91 98765 43210"></label>
 <label>Location<input id="location" placeholder="Coimbatore, Tamil Nadu"></label><label>LinkedIn<input id="linkedin" placeholder="linkedin.com/in/yourname"></label>
