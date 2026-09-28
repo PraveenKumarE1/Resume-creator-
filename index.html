@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Resume Creator — Word Style Editor</title><link rel="stylesheet" href="style.css">
+<title>ProResume — Professional Resume Creator</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="topbar">
@@ -16,8 +16,8 @@
 <path class="rb-line blue" d="M36 24h8M36 29h9M24 36h18M24 40h15M24 44h12"/>
 <path class="rb-pen" d="M43 47l7-14 4 2-7 14-5 2z"/>
 <text x="4" y="58" class="rb-letter">R</text><text x="12" y="63" class="rb-letter blue-text">B</text>
-</svg></div><div><h1>Resume Creator</h1><p>Build • Customize • Print your professional resume</p></div></div>
-  <div class="actions"><button id="saveBtn" class="secondary">💾 Save</button><button id="clearBtn" class="secondary">Clear</button><button id="printBtn" class="primary">🖨 Download PDF</button></div>
+</svg></div><div><h1>ProResume</h1><p>Professional Resume Creator • ATS-ready • A4</p></div></div>
+  <div class="actions"><button id="saveBtn" class="secondary">💾 Save Resume</button><button id="clearBtn" class="secondary">Clear</button><button id="printBtn" class="primary">🖨 Export PDF</button></div>
 </header>
 <div class="toolbar">
   <label>Template<select id="template"><option value="classic">Classic</option><option value="modern">Modern</option><option value="minimal">Minimal</option><option value="creative">Creative</option><option value="executive">Executive</option><option value="academic">Academic</option><option value="corporate">Corporate</option><option value="tech">Tech</option><option value="elegant">Elegant</option><option value="sidebar">Sidebar</option><option value="bold">Bold</option></select></label>
@@ -35,7 +35,7 @@
 </div>
 <main class="app">
 <section class="panel editor">
-<h2>Resume Content</h2>
+<h2>Build Your Professional Resume</h2>
 <div class="section"><h3>Personal Information</h3><div class="word-help">Word-style controls apply instantly to the A4 document. Use the design toolbar to change fonts, colors, spacing, margins and layout.</div><div class="grid">
 <label>Full Name<input id="name" placeholder="Your Name"></label><label>Professional Title<input id="title" placeholder="AI & Data Science Student"></label>
 <label>Email<input id="email" type="email" placeholder="you@example.com"></label><label>Phone<input id="phone" placeholder="+91 98765 43210"></label>
@@ -50,7 +50,7 @@
 <div class="section"><h3>Achievements & Activities</h3><textarea id="achievements" rows="5" placeholder="One achievement, workshop, hackathon or activity per line"></textarea></div>
 <div class="section"><h3>Additional Details</h3><div class="grid"><label>Career Objective<textarea id="objective" rows="3" placeholder="Optional career objective"></textarea></label><label>Hobbies / Interests<textarea id="interests" rows="3" placeholder="AI, reading, photography"></textarea></label><label>Publications / Papers<textarea id="publications" rows="3" placeholder="Optional publications or paper presentations"></textarea></label><label>Declaration<textarea id="declaration" rows="3" placeholder="Optional declaration"></textarea></label></div></div>
 </section>
-<section class="panel preview-wrap"><div class="preview-head"><h2>Live A4 Preview</h2><span id="status">Ready</span></div><article id="resumePreview" class="resume" contenteditable="false"></article></section>
+<section class="panel preview-wrap"><div class="preview-head"><h2>Professional A4 Preview</h2><span id="status">Ready</span></div><article id="resumePreview" class="resume" contenteditable="false"></article></section>
 </main>
 <script src="script.js"></script>
 </body></html>
